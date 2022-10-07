@@ -9,6 +9,6 @@
    (dolist (f (file-expand-wildcards "*.html~"))
      (if (file-exists-p f)
          (delete-file f)))
-   (message "Finished")
+   (message "completed")
    ;; (quit-process)
   )
